@@ -1,0 +1,17 @@
+{
+  "name": "EASYSIAM - Questioner ",
+  "version": "1.0",
+  "description": "An extension for check all questioner on SIAM",
+  "icons": {
+    "128":"logo.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://siam.ub.ac.id/kuisioner.php*"
+      ],
+      "js": ["content.js"]
+    }
+  ],  
+  "manifest_version": 2
+}
