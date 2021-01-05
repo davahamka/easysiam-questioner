@@ -1,5 +1,5 @@
 # EASYSIAM
-Too excited to see your <b>grades</b>? but there is a <b>questionnaire</b> that must be filled in first. Install EASYSIAM - Questioner for those of you who want to see the value in SIAM instantly.
+Too excited to see your <b>grades</b>? but there is a <b>questionnaire</b> that must be filled in first. Install EASYSIAM - Questioner for those of you who want to see the grades in SIAM instantly.
 
 ## Introducing ESQ
 🚧 UNDER CONSTRUCTION 🚧
