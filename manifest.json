@@ -3,15 +3,18 @@
   "version": "1.0",
   "description": "An extension for check all questioner on SIAM",
   "icons": {
-    "128":"logo.png"
+    "128": "./bin/logo.png"
   },
   "content_scripts": [
     {
-      "matches": [
-        "https://siam.ub.ac.id/kuisioner.php*"
-      ],
-      "js": ["content.js"]
+      "matches": ["https://siam.ub.ac.id/kuisioner.php*"],
+      "js": ["./build/inject.js"]
     }
-  ],  
+  ],
+  "web_accessible_resources": [
+    "build/app.js",
+    "build/handler.js",
+    "build/interface.js"
+  ],
   "manifest_version": 2
 }

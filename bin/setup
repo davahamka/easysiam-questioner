@@ -1,0 +1,11 @@
+#!/bin/bash
+
+echo "Installing libraries..."
+
+npm install
+
+echo "Build app..."
+
+npm run build
+
+echo "Finish..."

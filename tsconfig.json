@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES2015",
+    "module": "ES2015",
+    "esModuleInterop": true,
+    "sourceMap": false,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "outDir": "./build/",
+    "rootDir": "./lib/"
+  },
+  "exclude": ["node_modules"]
+}
