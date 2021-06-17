@@ -14,7 +14,9 @@
   "web_accessible_resources": [
     "build/app.js",
     "build/handler.js",
-    "build/interface.js"
+    "build/interface.js",
+    "build/randomizer.js",
+    "build/data/review.js"
   ],
   "manifest_version": 2
 }

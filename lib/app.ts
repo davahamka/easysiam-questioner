@@ -1,10 +1,11 @@
 import { fillQuestioner } from './handler.js';
+import { random } from './randomizer.js';
+import { review } from './data/review.js';
 
+const randomNumber = random(review);
 const score = prompt('Masukkan nilai (1-5): ', '4');
-const suggestion = prompt('Masukkan saran: ', 'Perbanyak tugas pak/bu!');
+const suggestion = prompt('Masukkan saran: ', review[randomNumber]);
 const inputElements = document.getElementsByTagName('input');
-
-console.log('object');
 
 const start = () => {
   if (suggestion == null || suggestion == '') {
